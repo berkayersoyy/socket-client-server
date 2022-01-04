@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ClientConsole/1.0.0": {
+        "dependencies": {
+          "ServerConsole": "1.0.0"
+        },
+        "runtime": {
+          "ClientConsole.dll": {}
+        }
+      },
+      "ServerConsole/1.0.0": {
+        "runtime": {
+          "ServerConsole.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ClientConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ServerConsole/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
